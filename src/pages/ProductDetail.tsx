@@ -25,7 +25,7 @@ export function ProductDetail() {
     }
 
     const message = `Olá! Gostaria de saber se o produto ${product.name} está disponível no tamanho ${selectedSize}? Link do produto: ${window.location.href}`;
-    const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/5562992168985?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
   };
 

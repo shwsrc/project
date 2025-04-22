@@ -12,7 +12,7 @@ export function Header() {
         <div className="flex justify-between h-20 items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="https://raw.githubusercontent.com/yourusername/your-repo/main/logo.png" 
+              src="./image/sh.jpg" 
               alt="Uzzececii" 
               className="h-12"
             />
