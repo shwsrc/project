@@ -50,4 +50,4 @@ export function SizeGuide() {
       ))}
     </div>
   );
-}
+}export default SizeGuide;

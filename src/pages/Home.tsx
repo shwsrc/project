@@ -6,9 +6,9 @@ import { products } from '../data/products';
 
 const ITEMS_PER_PAGE = 8;
 
-export function Home() {
+function Home() {
   const [currentPage, setCurrentPage] = useState(1);
-  
+
   const totalPages = Math.ceil(products.length / ITEMS_PER_PAGE);
   const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
   const currentProducts = products.slice(startIndex, startIndex + ITEMS_PER_PAGE);
@@ -72,3 +72,5 @@ export function Home() {
     </div>
   );
 }
+
+export default Home;

@@ -116,5 +116,7 @@ export function ProductDetail() {
         </div>
       </div>
     </motion.div>
+    
   );
 }
+export default App;
