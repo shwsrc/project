@@ -8,11 +8,11 @@ export function Header() {
 
   return (
     <header className="bg-[#9E7B7B] text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-7 sm:px-8 lg:px-8">
         <div className="flex justify-between h-20 items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="https://cdn.discordapp.com/attachments/1180707033561976864/1364247065856839863/IMG_2667.jpg?ex=6809a256&is=680850d6&hm=5a39ad2e9e158d36d7ed8f763223edd7d26e5e2a6afaef9726860cfdc0b47fb2&" 
+              src="https://cdn.discordapp.com/attachments/1180707033561976864/1364548571562774528/image-removebg-preview_1.png?ex=680a1263&is=6808c0e3&hm=0dfaa20fcac085dc5643bb3a06b5d4714b3d3440491cf9b420ac20ca77fe48ab&" 
               alt="Uzzececii" 
               className="h-12"
             />
