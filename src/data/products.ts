@@ -6,7 +6,7 @@ export const products = [
     images: [
       '/image/1.jpg',
     ],
-    description: 'Body confortável de manga longa, ideal para dias mais frescos.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -17,7 +17,7 @@ export const products = [
     images: [
       '/image/2.jpg'
     ],
-    description: 'Blusa casual elegante para o dia a dia. Versátil e confortável.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -28,7 +28,7 @@ export const products = [
     images: [
       '/image/3.jpg'
     ],
-    description: 'Elegante para eventos sociais. Tecido premium com acabamento refinado.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -39,7 +39,7 @@ export const products = [
     images: [
       '/image/4.jpg'
     ],
-    description: 'Ideal para o verão, combina conforto e estilo.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -50,7 +50,7 @@ export const products = [
     images: [
       '/image/5.jpg'
     ],
-    description: 'Modelo básico com manguinhas, ideal para o dia a dia.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -61,7 +61,7 @@ export const products = [
     images: [
       '/image/6.jpg'
     ],
-    description: 'Modelo sofisticado com recortes modernos.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -72,7 +72,7 @@ export const products = [
     images: [
       '/image/7.jpg'
     ],
-    description: 'Ideal para o frio com estilo, gola alta confortável.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -83,7 +83,7 @@ export const products = [
     images: [
       '/image/8.jpg'
     ],
-    description: 'Modelo fashion para sair com as amigas ou eventos noturnos.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -92,7 +92,7 @@ export const products = [
     name: 'Body Gabi',
     price: 37.90,
     images: ['/image/9.jpg'],
-    description: 'Top canelado básico com elasticidade e conforto.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -101,7 +101,7 @@ export const products = [
     name: 'Body Maia',
     price: 37.90,
     images: ['/image/10.jpg'],
-    description: 'Short com sobreposição de saia. Moderno e prático.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -110,7 +110,7 @@ export const products = [
     name: 'Body Lia com Argola Orgânica',
     price: 37.90,
     images: ['/image/11.jpg'],
-    description: 'Vestido com estampa floral para ocasiões especiais.',
+    description: '',
     sizes: ['U'],
     available: true
   },
@@ -119,7 +119,7 @@ export const products = [
     name: 'Body Maya',
     price: 37.90,
     images: ['/image/12.jpg'],
-    description: 'Calça estilo pantacourt, leve e elegante.',
+    description: '',
     sizes: ['U'],
     available: true
   },
