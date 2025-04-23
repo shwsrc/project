@@ -12,7 +12,7 @@ export function Header() {
         <div className="flex justify-between h-20 items-center">
           <Link to="/" className="flex items-center">
             <img 
-              src="image/ceci.jpg" 
+              src="https://cdn.discordapp.com/attachments/1180707033561976864/1364247065856839863/IMG_2667.jpg?ex=6809a256&is=680850d6&hm=5a39ad2e9e158d36d7ed8f763223edd7d26e5e2a6afaef9726860cfdc0b47fb2&" 
               alt="Uzzececii" 
               className="h-12"
             />
