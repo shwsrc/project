@@ -12,17 +12,17 @@ export function Contact() {
           <div className="space-y-6">
             <div className="flex items-center">
               <Phone className="h-6 w-6 text-gray-600 mr-3" />
-              <span>(11) 99999-9999</span>
+              <span>(62) 99216-8985</span>
             </div>
             
             <div className="flex items-center">
               <Mail className="h-6 w-6 text-gray-600 mr-3" />
-              <span>contato@abink.com.br</span>
+              <span>contato@Uzzececii.com</span>
             </div>
             
             <div className="flex items-center">
-              <MapPin className="h-6 w-6 text-gray-600 mr-3" />
-              <span>Rua Exemplo, 123 - São Paulo, SP</span>
+              
+              <span></span>
             </div>
           </div>
         </div>

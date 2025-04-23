@@ -37,8 +37,8 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contato</h3>
             <ul className="space-y-2 text-sm">
-              <li>WhatsApp: (11) 99999-9999</li>
-              <li>Email: contato@uzzececii.com.br</li>
+              <li>WhatsApp: (62) 99216-8985</li>
+              <li>Email: contato@uzzececii.com</li>
               <li>Horário: Seg-Sex, 9h às 18h</li>
             </ul>
           </div>
@@ -55,20 +55,20 @@ export function Footer() {
                 <Instagram className="h-6 w-6" />
               </a>
               <a
-                href="https://facebook.com/uzzececii"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-200"
               >
-                <Facebook className="h-6 w-6" />
+                
               </a>
               <a
-                href="https://twitter.com/uzzececii"
+                href=""
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-pink-200"
               >
-                <Twitter className="h-6 w-6" />
+                
               </a>
             </div>
           </div>
