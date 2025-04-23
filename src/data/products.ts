@@ -4,7 +4,7 @@ export const products = [
     name: 'Body Manga Longa',
     price: 37.90,
     images: [
-      '/image/1.jpg',
+      'image/1.jpg',
     ],
     description: 'Body confortável de manga longa, ideal para dias mais frescos.',
     sizes: ['U'],
