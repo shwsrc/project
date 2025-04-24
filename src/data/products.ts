@@ -123,4 +123,22 @@ export const products = [
     sizes: ['U'],
     available: true
   },
+  {
+    id: '12',
+    name: 'Body Franzido',
+    price: 39.99,
+    images: ['/image/14.jpg'],
+    description: '',
+    sizes: ['U'],
+    available: true
+  },
+  {
+    id: '12',
+    name: 'Body Top Tube',
+    price: 39.99,
+    images: ['/image/13.jpg'],
+    description: '',
+    sizes: ['U'],
+    available: true
+  },
 ];
