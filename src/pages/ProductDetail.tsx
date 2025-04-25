@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { products } from '../data/products';
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -11,11 +12,15 @@ import 'swiper/css/pagination';
 export function ProductDetail() {
   const { id } = useParams();
   const [selectedSize, setSelectedSize] = useState('');
-  
+
   const product = products.find(p => p.id === id);
-  
+
   if (!product) {
-    return <div>Produto não encontrado</div>;
+    return (
+      <div className="text-center py-20 text-xl font-semibold text-red-600">
+        Produto não encontrado
+      </div>
+    );
   }
 
   const handleWhatsAppClick = () => {
@@ -51,41 +56,25 @@ export function ProductDetail() {
                   src={image}
                   alt={`${product.name} - Imagem ${index + 1}`}
                   className="w-full h-[600px] object-cover"
+                  onError={(e) => (e.currentTarget.src = '/image/fallback.jpg')} // fallback caso imagem não carregue
                 />
               </SwiperSlide>
             ))}
           </Swiper>
         </div>
-        
+
         <div className="space-y-8">
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.2 }}
-          >
-            <h1 className="text-4xl font-bold text-gray-900">{product.name}</h1>
-            <p className="mt-4 text-3xl font-semibold text-[#9E7B7B]">
-              {product.price.toLocaleString('pt-BR', {
-                style: 'currency',
-                currency: 'BRL',
-              })}
-            </p>
-          </motion.div>
-          
-          <motion.p 
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            className="text-lg text-gray-700"
-          >
-            {product.description}
-          </motion.p>
-          
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.4 }}
-          >
+          <h1 className="text-4xl font-bold text-gray-900">{product.name}</h1>
+          <p className="text-3xl font-semibold text-[#9E7B7B]">
+            {product.price.toLocaleString('pt-BR', {
+              style: 'currency',
+              currency: 'BRL',
+            })}
+          </p>
+
+          <p className="text-lg text-gray-700">{product.description || 'Sem descrição disponível.'}</p>
+
+          <div>
             <h3 className="text-lg font-medium text-gray-900 mb-4">Tamanho</h3>
             <div className="flex gap-4">
               {product.sizes.map((size) => (
@@ -102,21 +91,18 @@ export function ProductDetail() {
                 </button>
               ))}
             </div>
-          </motion.div>
-          
-          <motion.button
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.5 }}
+          </div>
+
+          <button
             onClick={handleWhatsAppClick}
             className="w-full bg-green-600 text-white py-4 px-6 rounded-full text-lg font-medium hover:bg-green-700 transition-colors duration-200"
           >
             Comprar pelo WhatsApp
-          </motion.button>
+          </button>
         </div>
       </div>
     </motion.div>
-    
   );
 }
-export default App;
+
+export default ProductDetail;

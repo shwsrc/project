@@ -124,7 +124,7 @@ export const products = [
     available: true
   },
   {
-    id: '12',
+    id: '13',
     name: 'Body Franzido',
     price: 39.99,
     images: ['/image/14.jpg'],
@@ -133,7 +133,7 @@ export const products = [
     available: true
   },
   {
-    id: '12',
+    id: '14',
     name: 'Body Top Tube',
     price: 39.99,
     images: ['/image/13.jpg'],
